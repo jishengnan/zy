@@ -3,11 +3,7 @@
   padding: 0;
   list-style: none;
   box-sizing: border-box;
-<<<<<<< HEAD
   font-size: 14px; }
-=======
-}
->>>>>>> gxr
 
 html,
 body,
@@ -20,7 +16,7 @@ body,
 
 header {
   width: 100%;
-<<<<<<< HEAD
+
   height: 250px; }
   header p {
     width: 100%;
@@ -46,10 +42,9 @@ header {
           height: 50px; }
       header div dl dd {
         text-align: center; }
-=======
-  height: 200px;
-}
->>>>>>> gxr
+
+
+
 
 main {
   flex: 1;
@@ -91,7 +86,7 @@ main .center .box dl dd {
 
 footer {
   width: 100%;
-<<<<<<< HEAD
+
   height: 50px; }
 .top{
   padding: 10px;
@@ -112,7 +107,6 @@ footer {
   height: 20px;
   overflow: hidden;
 }
-=======
-  height: 50px;
-}
->>>>>>> gxr
+
+
+
