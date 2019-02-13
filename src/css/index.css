@@ -3,11 +3,7 @@
   padding: 0;
   list-style: none;
   box-sizing: border-box;
-<<<<<<< HEAD
-}
-=======
   font-size: 14px; }
->>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
 
 html,
 body,
@@ -15,16 +11,10 @@ body,
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 header {
   width: 100%;
-<<<<<<< HEAD
-  height: 250px;
-}
-=======
-
   height: 250px; }
   header p {
     width: 100%;
@@ -51,103 +41,63 @@ header {
       header div dl dd {
         text-align: center; }
 
-
-
->>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
-
 main {
   flex: 1;
-  overflow: auto;
-}
-
-<<<<<<< HEAD
-main .bottom .jp {
-  height: 50px;
-=======
-main .center {
-  width: 100%;
-  height: 230px;
-}
-
-main .center p {
-  width: 100%;
-  height: 30px;
-  padding: 0 10px;
->>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-<<<<<<< HEAD
-main .bottom .jp span {
-  padding: 0 10px;
-  box-sizing: border-box;
-}
-
-main .bottom .every {
-  display: flex;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-main .bottom .every dt {
-  width: 100px;
-  height: 120px;
-}
-
-main .bottom .every dt img {
-  width: 100%;
-  height: 100%;
-=======
-main .center .box {
-  width: 100%;
-  height: 200px;
-  overflow-x: auto;
-  display: flex;
-}
-
-main .center .box dl {
-  margin-left: 10px;
-}
-
-main .center .box dl dt img {
-  width: 100px;
-}
-
-main .center .box dl dd {
-  padding: 0 10px;
->>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
-}
+  overflow: auto; }
+  main .top {
+    padding: 10px; }
+    main .top .top_list {
+      display: flex;
+      flex-flow: wrap; }
+    main .top .top_list dl {
+      width: 27%;
+      margin: 10px; }
+    main .top .top_list dl dt img {
+      width: 100%;
+      height: 80px; }
+    main .top .top_list dl dd {
+      height: 20px;
+      overflow: hidden; }
+  main .center {
+    width: 100%;
+    height: 230px; }
+    main .center p {
+      width: 100%;
+      height: 30px;
+      padding: 0 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    main .center .box {
+      width: 100%;
+      height: 200px;
+      overflow-x: auto;
+      display: flex; }
+      main .center .box dl {
+        margin-left: 10px; }
+        main .center .box dl dt img {
+          width: 100px; }
+        main .center .box dl dd {
+          padding: 0 10px; }
+  main .bottom .jp {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    main .bottom .jp span {
+      padding: 0 10px;
+      box-sizing: border-box; }
+  main .bottom .every {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box; }
+    main .bottom .every dt {
+      width: 100px;
+      height: 120px; }
+      main .bottom .every dt img {
+        width: 100%;
+        height: 100%; }
 
 footer {
   width: 100%;
-<<<<<<< HEAD
-  height: 50px;
-}
-=======
-
   height: 50px; }
-.top{
-  padding: 10px;
-}
-.top_list{
-    display: flex;
-    flex-flow: wrap;
-}
-.top_list dl{
-  width: 27%;
-  margin: 10px;
-}
-.top_list dl dt img{
-  width: 100%;
-  height: 80px;
-}
-.top_list dl dd{
-  height: 20px;
-  overflow: hidden;
-}
-
-
-
->>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688

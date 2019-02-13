@@ -1,137 +1,135 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
-    font-size: 14px;
-}
-
-html,
-body,
-.wrapper {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-header {
-    width: 100%;
-    height: 250px;
-<<<<<<< HEAD
-=======
-    p {
-        width: 100%;
-        height: 150px;
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
-    div {
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content: space-around;
-        dl {
-            width: 100%;
-            height: 100%;
-            dt {
-                width: 100%;
-                height: 70px;
-                padding: 10px 10px;
-                text-align: center;
-                img {
-                    width: 50px;
-                    height: 50px;
-                }
-            }
-            dd {
-                text-align: center;
-            }
-        }
-    }
->>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
-}
-
-main {
-    flex: 1;
-    overflow: auto;
-<<<<<<< HEAD
-    .bottom{
-        .jp{
-            height: 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            span{
-                padding: 0 10px;
-                box-sizing: border-box;
-            }
-        }
-        .every{
-            display: flex;
-            padding: 10px;
-            box-sizing: border-box;
-            dt{
-                width: 100px;
-                height: 120px;
-                img{
-                    width: 100%;
-                    height: 100%;
-=======
-    .center{
-        width: 100%;
-        height: 230px;
-        p{
-            width: 100%;
-            height: 30px;
-            padding:0 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .box{
-            width: 100%;
-            height: 200px;
-            overflow-x: auto;
-            display: flex;
-            dl{
-                margin-left: 10px;
-                dt{
-                    img{
-                        width: 100px;
-                    }
-                }
-                dd{
-                    padding:0 10px;
->>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
-                }
-            }
-        }
-    }
-}
-
-footer {
-    width: 100%;
-    height: 50px;
-}
-.top{
-    padding: 10px;
-  }
-  .top_list{
-      display: flex;
-      flex-flow: wrap;
-  }
-  .top_list dl{
-    width: 27%;
-    margin: 10px;
-  }
-  .top_list dl dt img{
-    width: 100%;
-    height: 80px;
-  }
-  .top_list dl dd{
-    height: 20px;
-    overflow: hidden;
-  }
+                     * {
+                         margin: 0;
+                         padding: 0;
+                         list-style: none;
+                         box-sizing: border-box;
+                         font-size: 14px;
+                     }
+                     
+                     html,
+                     body,
+                     .wrapper {
+                         width: 100%;
+                         height: 100%;
+                         display: flex;
+                         flex-direction: column;
+                     }
+                     
+                     header {
+                         width: 100%;
+                         height: 250px;
+                         p {
+                             width: 100%;
+                             height: 150px;
+                             img {
+                                 width: 100%;
+                                 height: 100%;
+                             }
+                         }
+                         div {
+                             width: 100%;
+                             height: 100px;
+                             display: flex;
+                             justify-content: space-around;
+                             dl {
+                                 width: 100%;
+                                 height: 100%;
+                                 dt {
+                                     width: 100%;
+                                     height: 70px;
+                                     padding: 10px 10px;
+                                     text-align: center;
+                                     img {
+                                         width: 50px;
+                                         height: 50px;
+                                     }
+                                 }
+                                 dd {
+                                     text-align: center;
+                                 }
+                             }
+                         }
+                     }
+                     
+                     main {
+                         flex: 1;
+                         overflow: auto;
+                         .top {
+                             padding: 10px;
+                             .top_list {
+                                 display: flex;
+                                 flex-flow: wrap;
+                             }
+                             .top_list dl {
+                                 width: 27%;
+                                 margin: 10px;
+                             }
+                             .top_list dl dt img {
+                                 width: 100%;
+                                 height: 80px;
+                             }
+                             .top_list dl dd {
+                                 height: 20px;
+                                 overflow: hidden;
+                             }
+                         }
+                         .center {
+                             width: 100%;
+                             height: 230px;
+                             p {
+                                 width: 100%;
+                                 height: 30px;
+                                 padding: 0 10px;
+                                 display: flex;
+                                 justify-content: space-between;
+                                 align-items: center;
+                             }
+                             .box {
+                                 width: 100%;
+                                 height: 200px;
+                                 overflow-x: auto;
+                                 display: flex;
+                                 dl {
+                                     margin-left: 10px;
+                                     dt {
+                                         img {
+                                             width: 100px;
+                                         }
+                                     }
+                                     dd {
+                                         padding: 0 10px;
+                                     }
+                                 }
+                             }
+                         }
+                         .bottom {
+                             .jp {
+                                 height: 50px;
+                                 display: flex;
+                                 justify-content: space-between;
+                                 align-items: center;
+                                 span {
+                                     padding: 0 10px;
+                                     box-sizing: border-box;
+                                 }
+                             }
+                             .every {
+                                 display: flex;
+                                 padding: 10px;
+                                 box-sizing: border-box;
+                                 dt {
+                                     width: 100px;
+                                     height: 120px;
+                                     img {
+                                         width: 100%;
+                                         height: 100%;
+                                     }
+                                 }
+                             }
+                         }
+                     }
+                     
+                     footer {
+                         width: 100%;
+                         height: 50px;
+                     }
