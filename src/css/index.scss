@@ -18,6 +18,8 @@ body,
 header {
     width: 100%;
     height: 250px;
+<<<<<<< HEAD
+=======
     p {
         width: 100%;
         height: 150px;
@@ -49,11 +51,35 @@ header {
             }
         }
     }
+>>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
 }
 
 main {
     flex: 1;
     overflow: auto;
+<<<<<<< HEAD
+    .bottom{
+        .jp{
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            span{
+                padding: 0 10px;
+                box-sizing: border-box;
+            }
+        }
+        .every{
+            display: flex;
+            padding: 10px;
+            box-sizing: border-box;
+            dt{
+                width: 100px;
+                height: 120px;
+                img{
+                    width: 100%;
+                    height: 100%;
+=======
     .center{
         width: 100%;
         height: 230px;
@@ -79,6 +105,7 @@ main {
                 }
                 dd{
                     padding:0 10px;
+>>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
                 }
             }
         }

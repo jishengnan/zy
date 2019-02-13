@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 *{margin:0;padding:0;list-style:none;box-sizing:border-box}html,body,.wrapper{width:100%;height:100%;display:flex;flex-direction:column}header{width:100%;height:200px}main{flex:1;overflow:auto}footer{width:100%;height:50px;display:flex;justify-content:center;align-items:center}footer dl{width:20%;height:50px;display:flex;flex-direction:column;justify-content:center;align-items:center}footer dl dt{width:20px;height:20px}footer dl dt img{width:100%;height:100%}footer dl dd{margin-top:5px;font-size:14px}
+=======
+*{margin:0;padding:0;list-style:none;box-sizing:border-box}html,body,.wrapper{width:100%;height:100%;display:flex;flex-direction:column}header{width:100%;height:250px}main{flex:1;overflow:auto}main .bottom .jp{height:50px;display:flex;justify-content:space-between;align-items:center}main .bottom .jp span{padding:0 10px;box-sizing:border-box}main .bottom .every{display:flex;padding:10px;box-sizing:border-box}main .bottom .every dt{width:100px;height:120px}main .bottom .every dt img{width:100%;height:100%}footer{width:100%;height:50px}
+>>>>>>> d7cc45d485cdf8c318ba7818054b50bc206aa50a
 =======
 *{margin:0;padding:0;list-style:none;box-sizing:border-box}html,body,.wrapper{width:100%;height:100%;display:flex;flex-direction:column}header{width:100%;height:200px}main{flex:1;overflow:auto}main .center{width:100%;height:230px}main .center p{width:100%;height:30px;padding:0 10px;display:flex;justify-content:space-between;align-items:center}main .center .box{width:100%;height:200px;overflow-x:auto;display:flex}main .center .box dl{margin-left:10px}main .center .box dl dt img{width:100px}main .center .box dl dd{padding:0 10px}footer{width:100%;height:50px}
 >>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
