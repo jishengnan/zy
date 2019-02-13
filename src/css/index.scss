@@ -54,11 +54,41 @@ header {
 main {
     flex: 1;
     overflow: auto;
+    .center{
+        width: 100%;
+        height: 230px;
+        p{
+            width: 100%;
+            height: 30px;
+            padding:0 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .box{
+            width: 100%;
+            height: 200px;
+            overflow-x: auto;
+            display: flex;
+            dl{
+                margin-left: 10px;
+                dt{
+                    img{
+                        width: 100px;
+                    }
+                }
+                dd{
+                    padding:0 10px;
+                }
+            }
+        }
+    }
 }
 
 footer {
     width: 100%;
     height: 50px;
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,3 +113,25 @@ footer {
         }
     }
 }
+=======
+}
+.top{
+    padding: 10px;
+  }
+  .top_list{
+      display: flex;
+      flex-flow: wrap;
+  }
+  .top_list dl{
+    width: 27%;
+    margin: 10px;
+  }
+  .top_list dl dt img{
+    width: 100%;
+    height: 80px;
+  }
+  .top_list dl dd{
+    height: 20px;
+    overflow: hidden;
+  }
+>>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
