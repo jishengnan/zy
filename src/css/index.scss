@@ -22,6 +22,35 @@ header {
 main {
     flex: 1;
     overflow: auto;
+    .center{
+        width: 100%;
+        height: 230px;
+        p{
+            width: 100%;
+            height: 30px;
+            padding:0 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .box{
+            width: 100%;
+            height: 200px;
+            overflow-x: auto;
+            display: flex;
+            dl{
+                margin-left: 10px;
+                dt{
+                    img{
+                        width: 100px;
+                    }
+                }
+                dd{
+                    padding:0 10px;
+                }
+            }
+        }
+    }
 }
 
 footer {
