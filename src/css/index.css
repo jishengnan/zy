@@ -1,159 +1,157 @@
 * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  box-sizing: border-box;
-<<<<<<< HEAD
-  font-size: 14px; }
-=======
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 14px;
 }
->>>>>>> master
 
-html,
 body,
 .wrapper {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-  width: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
-  height: 250px; }
-  header p {
     width: 100%;
-    height: 150px; }
-    header p img {
-      width: 100%;
-      height: 100%; }
-  header div {
+    height: 250px;
+}
+
+header p {
+    width: 100%;
+    height: 150px;
+}
+
+header p img {
+    width: 100%;
+    height: 100%;
+}
+
+header div {
     width: 100%;
     height: 100px;
     display: flex;
-    justify-content: space-around; }
-    header div dl {
-      width: 100%;
-      height: 100%; }
-      header div dl dt {
-        width: 100%;
-        height: 70px;
-        padding: 10px 10px;
-        text-align: center; }
-        header div dl dt img {
-          width: 50px;
-          height: 50px; }
-      header div dl dd {
-        text-align: center; }
-=======
-  height: 200px;
+    justify-content: space-around;
 }
->>>>>>> master
 
+header div dl {
+    width: 100%;
+    height: 100%;
+}
 
+header div dl dt {
+    width: 100%;
+    height: 70px;
+    padding: 10px 10px;
+    text-align: center;
+}
 
+header div dl dt img {
+    width: 50px;
+    height: 50px;
+}
+
+header div dl dd {
+    text-align: center;
+}
 
 main {
-  flex: 1;
-  overflow: auto;
+    flex: 1;
+    overflow: auto;
 }
-<<<<<<< HEAD
 
 footer {
-  width: 100%;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer dl {
-  width: 20%;
-  height: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 20%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer dl dt {
-  width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 footer dl dt img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 footer dl dd {
-  margin-top: 5px;
-  font-size: 14px;
+    margin-top: 5px;
+    font-size: 14px;
 }
-=======
 
 main .center {
-  width: 100%;
-  height: 230px;
+    width: 100%;
+    height: 230px;
 }
 
 main .center p {
-  width: 100%;
-  height: 30px;
-  padding: 0 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main .center .box {
-  width: 100%;
-  height: 200px;
-  overflow-x: auto;
-  display: flex;
+    width: 100%;
+    height: 200px;
+    overflow-x: auto;
+    display: flex;
 }
 
 main .center .box dl {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 main .center .box dl dt img {
-  width: 100px;
+    width: 100px;
 }
 
 main .center .box dl dd {
-  padding: 0 10px;
+    padding: 0 10px;
 }
 
 footer {
-  width: 100%;
-
-  height: 50px; }
-.top{
-  padding: 10px;
+    width: 100%;
+    height: 50px;
 }
-.top_list{
+
+.top {
+    padding: 10px;
+}
+
+.top_list {
     display: flex;
     flex-flow: wrap;
 }
-.top_list dl{
-  width: 27%;
-  margin: 10px;
-}
-.top_list dl dt img{
-  width: 100%;
-  height: 80px;
-}
-.top_list dl dd{
-  height: 20px;
-  overflow: hidden;
+
+.top_list dl {
+    width: 27%;
+    margin: 10px;
 }
 
+.top_list dl dt img {
+    width: 100%;
+    height: 80px;
+}
 
-
->>>>>>> e05e310ad4615dbac5cd0837f3c634408c6a8688
+.top_list dl dd {
+    height: 20px;
+    overflow: hidden;
+}
