@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html,
 body,
@@ -10,16 +11,48 @@ body,
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 header {
   width: 100%;
-  height: 200px; }
+  height: 250px;
+}
 
 main {
   flex: 1;
-  overflow: auto; }
+  overflow: auto;
+}
+
+main .bottom .jp {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .bottom .jp span {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+main .bottom .every {
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+main .bottom .every dt {
+  width: 100px;
+  height: 120px;
+}
+
+main .bottom .every dt img {
+  width: 100%;
+  height: 100%;
+}
 
 footer {
   width: 100%;
-  height: 50px; }
+  height: 50px;
+}
